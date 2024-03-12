@@ -1,0 +1,187 @@
+/* media queries */
+
+@media (max-width:375px){
+
+    .nav{
+        padding: 5vw;
+        justify-content: space-between;
+    }
+    .nav i{
+        display: block;
+    }
+    .nav img{
+        height:15vw;
+    }
+    .nav h4,a{
+        display: none;
+    }
+    .main{
+  
+     overflow: hidden;
+
+    }
+    .page1 .arrow{
+        width: 20vw;
+        height: 20vw;
+        border: 1px solid var(--border);
+    }
+    .scroller{
+        margin-top: 10vw;
+    }
+    .page1 .arrow i{
+        font-size: 6vw;
+    }
+    .page1 h1{
+        font-size: 15vw;
+        /* margin-top: 50vw; */
+    }
+    .page1 h2{
+        font-size: 5vw;
+    }
+    .page1 p{
+        width: 80%;
+        font-size: 4vw;
+    }
+    .scroller h4{
+        font-size: 15vw;
+    -webkit-text-stroke: 0.5vw var(--border);
+
+    }
+    .about_us{
+        flex-direction: column;
+        margin-top: 20vw;
+        margin-bottom: 15vw;
+    }
+    .about_us img{
+        width:40vw;
+        height: 25vw;
+    }
+    .about_us .about_us_in{
+        width: 100%;
+    }
+    .about_us .about_us_in h3{
+        /* width: 100%; */
+        font-size: 6vw;
+        margin-bottom: 1vw;
+    }
+    .about_us .about_us_in h3::before{
+        height: 1vw;
+    }
+    .about_us .about_us_in p{
+
+        width: 100%;
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    .card_container{
+        flex-direction: column;
+        gap: 5vw;
+        height: 200vh;
+        padding-bottom: 10vw;
+    }
+    .card{
+        width: 80%;
+        height: 100%;
+    }
+    .overlay h4{
+        font-size: 7vw;
+    }
+    .overlay p{
+        font-size: 4vw;
+    }
+    .terracotta_div{
+        flex-direction: column;
+        padding: 5vw 0;
+    }
+    .terracotta_div h4{
+        width: 100%;
+        font-size: 4vw;
+    }
+    .page3{
+        height: 80vh;
+        /* background-color: yellow; */
+    }
+    .page3 p{
+        font-size: 3.5vw;
+        width: 90%;
+        line-height:4.5vw;
+    }
+    .page3 p:nth-child(1){
+        top:20%;
+
+    }
+    .page3 p:nth-child(3){
+        bottom: 15%;
+
+    }
+    .page4{
+        gap: 4vw;
+        text-align: center;
+    }
+    .elm{
+        width: 30vw;
+        height: 40vw;
+    }
+    .elm h2{
+        font-size: 4vw;
+
+    }
+    .page4 h1{
+    -webkit-text-stroke: 0.3vw var(--border);
+    font-size: 10vw;
+    top:-2%;
+        
+    }
+    .footer{
+        min-height: 60vh;
+        flex-direction: column;
+        padding: 2vw 5vw; 
+        border-top-right-radius: 5vw;   
+        border-top-left-radius: 5vw;   
+        
+    }
+    .footer .footer1{
+        /* flex-direction: row; */
+        justify-content:center;
+        gap: 3vw;
+        align-items: center;
+        width: 100%;
+    }
+    .footer .footer1 .icons{
+        gap: 3vw;
+    }
+    .footer .footer1 .icons i{
+        font-size: 6vw;
+    }
+    .footer .footer2{
+        width: 100%;
+        text-align: center;
+        font-size: 3vw;
+        /* background-color: yellow; */
+
+    }
+    .footer .footer3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #000;
+        width: 100%;
+        text-align: center;
+        padding: 4vw 2vw;
+
+        border-radius: 8vw;
+        font-size: 3vw;
+
+
+    }
+    .footer .footer4{
+        /* background-color: yellow; */
+        width: 100%;
+        height: 20%;
+    }
+    .footer .footer4 h2,p{
+        font-size: 3vw;
+    }
+
+
+}
